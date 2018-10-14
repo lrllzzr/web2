@@ -10,9 +10,11 @@
   text-decoration: none;
 }
   body{
+  display: flex;
+  align-content:center;
 
   background-image: url("universe.jpg");
-  display: flex;
+  
   justify-content:center;
   align-items: center;
 
