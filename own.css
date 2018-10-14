@@ -28,7 +28,7 @@ body{
 
 nav, aside{
   /* border: 2px solid white; */
-  flex-basis: 1200px;
+  flex-basis: 240.39px;
   font-size: 1.1rem;
   flex-shrink: 0;
 
@@ -57,9 +57,7 @@ footer{
 
 main {
   max-width: 1700px;
-
-
-    display: flex;
+  display: flex;
   flex-direction: column;
   border: 2px solid white;
   background-color: black;
