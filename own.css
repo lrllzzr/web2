@@ -30,6 +30,7 @@ nav, aside{
   /* border: 2px solid white; */
   flex-basis: 1200px;
   font-size: 1.1rem;
+  flex-shrink: 0;
 
 
 
