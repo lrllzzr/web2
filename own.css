@@ -3,16 +3,18 @@ color:white;
 text-decoration: none;
 
   font-weight: bold;
+    
 }
 body{
 
   background-image: url("universe.jpg");
   display: flex;
-  justify-content:center;
+/*  justify-content:center;*/
 
 
 }
 .container{
+    margin: auto;
 
   display:flex;
   flex-direction: column;
@@ -27,20 +29,14 @@ body{
   /* align-items: center; */
 
 }
-@media(max-width:500px){
-    .content{
-        
-  flex-direction: column;
-  
-    }
-}
+
     
 nav, aside{
   /* border: 2px solid white; */
   flex-basis: 200px;
   margin:10px;
   font-size: 1.3rem;
-  flex-shrink: 0;
+/*  flex-shrink: 0;*/
 
 
 
@@ -52,7 +48,7 @@ header{
   justify-content: center;
   flex-direction: column;
   padding-top:50px;
-  flex-shrink: 0;
+/*  flex-shrink: 0;*/
 
 }
 footer{
@@ -71,7 +67,7 @@ main {
   border: 2px solid white;
   background-color: black;
   align-items: center;
-    width:1400px;
+    flex-basis: 1400px;
     
 
 }
