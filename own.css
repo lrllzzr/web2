@@ -17,19 +17,22 @@ body{
 
   display:flex;
   flex-direction: column;
+  width: 100%;
 
 }
 .content{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 
 
 }
 
 nav, aside{
   /* border: 2px solid white; */
-  flex-basis: 240.39px;
-  font-size: 1.1rem;
+  flex-basis: 200px;
+  margin:10px;
+  font-size: 1.5rem;
   flex-shrink: 0;
 
 
@@ -56,12 +59,14 @@ footer{
 
 
 main {
-  max-width: 1700px;
+  width: 1400px;
   display: flex;
   flex-direction: column;
   border: 2px solid white;
   background-color: black;
-  flex-basis:7000px;
+  justify-content: center;
+  align-items: center;
+  /* flex-basis:7000px; */
 
 }
 .item{
@@ -80,7 +85,6 @@ justify-content: center;
   flex-direction: row;
   /* flex-wrap: wrap; */
   padding:50px;
-
   align-items: center;
 }
 
@@ -119,8 +123,7 @@ justify-content: center;
 #basic1 a{
   text-decoration: none;
 }
-#basic{
-}
+
 .list{
   font-weight: bold;
   margin-left: 185px;
@@ -143,25 +146,26 @@ justify-content: center;
   flex-shrink: 0;
 }
 .basic1 img{
-  width:650px;
-  height:380px;
+  width:550px;
+  height:300px;
 }
+
 .basic2 img{
 
-    width:650px;
-    height:380px;
+    width:550px;
+    height:300px;
 }
 
 .basic3 img{
 
-    width:650px;
-    height:380px;
+    width:550px;
+    height:300px;
 }
 /* main  */
 /* Sun */
 
 nav>ul>li{
-  margin-left: 10px;
+
   padding-top:20px;
 }
 nav{
