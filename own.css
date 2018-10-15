@@ -14,22 +14,27 @@ body{
 }
 .container{
 
-
   display:flex;
   flex-direction: column;
-  width: 100%;
+/*  width: 100%;*/
 
 }
 .content{
   display: flex;
   flex-direction: row;
   justify-content: center;
+/*  max-width: 2000px;*/
   /* align-items: center; */
 
-
-
 }
-
+@media(max-width:500px){
+    .content{
+        
+  flex-direction: column;
+  
+    }
+}
+    
 nav, aside{
   /* border: 2px solid white; */
   flex-basis: 200px;
@@ -55,20 +60,19 @@ footer{
     font-size: 1.7rem;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 185px;
+    margin-left: 250px;
     margin-right: 250px;
 }
 
 
 main {
-  width: 1400px;
   display: flex;
   flex-direction: column;
   border: 2px solid white;
   background-color: black;
-  /* justify-content: center; */
   align-items: center;
-  /* flex-basis:7000px; */
+    width:1400px;
+    
 
 }
 .item{
@@ -81,12 +85,13 @@ flex-direction: row;
   flex-direction: column;
 background-color: black;
 justify-content: center;
+    align-items: center;
 }
 
 .basic1, .basic2, .basic3{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+
   padding:50px;
   align-items: center;
 }
@@ -171,9 +176,6 @@ nav>ul>li{
 
   padding-top:20px;
 }
-nav{
-
-}
 #tp{
   margin-top: 40px;
   background-color: white;
@@ -186,6 +188,7 @@ nav{
   text-align: right;
 }
 .sunexplain{
+    
   color: #e6e6e6;
   line-height:30px;
   word-spacing: 1.5px;
@@ -193,6 +196,8 @@ nav{
   padding:30px;
   padding-top:0;
   font-size: 1.4rem;
+    max-width: 1200px;
+    
 }
 .subject1{
   padding:30px;
