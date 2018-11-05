@@ -56,7 +56,7 @@ nav, aside{
 
 nav{
     position: relative;
-    right:30px;
+    right:25px;
     top:10px;
 }
 
@@ -164,7 +164,7 @@ justify-content: center;
   margin-left: 185px;
   margin-right: 185px;
   padding-bottom: 25px;
-  padding-top:25px;
+  padding-top:13px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -172,49 +172,17 @@ justify-content: center;
 
 }
 #list{
+
   display: flex;
   font-family: Comic Sans MS;
   font-size: 1.6rem;
-  padding-top:30px;
-  padding-left:30px;
-  padding-right: 30px;
+  padding-top:15px;
+  padding-left:13px;
+  padding-right: 13px;
     font-weight: bold;
   flex-shrink: 0;
 
 }
-/*<--추가-->*/
-
-/*
-
-#basic1 {
-	display:block;
-	position:relative;
-}
-
-
-@-webkit-keyframes spaceboots {
-	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
-	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
-	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
-	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
-	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
-	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
-	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
-	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
-	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
-	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
-	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
-}
-#basic1:hover,
-#basic1:focus {
-	-webkit-animation-name: spaceboots;
-	-webkit-animation-duration: 0.8s;
-	-webkit-transform-origin:50% 50%;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-timing-function: linear;
-}
-*/
-
 
 #basic1{
 
@@ -222,12 +190,9 @@ justify-content: center;
 
 }
 
-
 .basic:hover  #basic1:not(:hover) {
 	opacity: 0.3;
 }
-
-
 
 
 #list {
@@ -242,6 +207,7 @@ justify-content: center;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
+
 #list:before {
   pointer-events: none;
   position: absolute;
@@ -324,10 +290,7 @@ justify-content: center;
     transform: translateX(0);
   }
 }
-/*<--추가-->*/
 
-/* main  */
-/* Sun */
 
 nav>ul>li{
 
@@ -346,6 +309,7 @@ nav>ul>li{
   text-align: right;
 }
 .sunexplain{
+
   font-family: Comic Sans MS;
   color: rgba(255,255,255,0.85);
   font-weight: normal;
@@ -370,4 +334,69 @@ nav>ul>li{
 .sun img{
   padding:40px;
   padding-bottom: 80px;
+
+}
+
+.sun{
+  text-align: center;
+}
+
+/* 11/05추가 */
+
+
+.dropbtn{
+  display: flex;
+  font-family: comic sans ms;
+  font-size: 1.6rem;
+  /* padding-top:30px;
+  padding-left:30px;
+  padding-right: 30px; */
+  flex-shrink: 0;
+  background-color: rgba(0,0,0,0.1);
+
+  border: none;
+  cursor:pointer;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+  font-size:16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.85);
+    min-width:250px;
+
+    box-shadow: 0px 8px 16px 0px rgba(192,192,192,0.1);
+    z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: comic sans ms;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+
+.dropdown-content a:hover {color: #b3c6ff;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn a{
+    color:#b3c6ff;
+}
+
+.navlist a:hover{
+  color:#b3c6ff;
 }

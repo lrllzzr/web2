@@ -4,11 +4,11 @@
 var lists = ["Main","태양 이야기","달 이야기","우주 이야기","재미있는 상대성 이론","신비한 이야기들"]
 
 function subject(){
-document.write('<div id="title"><a href="astronomy.html">Astronomy World</a></div>');
+document.write('<div id="title"><a href="index.html">Astronomy World</a></div>');
 }
 
 function list1(){
-  document.write('<div id="list"><a href="astronomy.html">'+lists[0]+'</a></div>');
+  document.write('<div id="list"><a href="index.html">'+lists[0]+'</a></div>');
 }
 
 function list2(){
